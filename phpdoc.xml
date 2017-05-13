@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Paths are relatives from Current Working Directory (CWD) where phpdoc is executed -->
+<phpdoc>
+	<title>Pug-php Engine Documentation</title>
+	
+  <parser>
+     <target>./docs/cache</target>
+	  
+	  <!-- Read files with theses extensions -->
+     <extensions>
+        <extension>php</extension>
+     </extensions>
+  </parser>
+	
+  <transformer>
+     <target>./docs</target>
+  </transformer>
+	
+  <files>
+	  <!-- Directories to read -->
+	  <directory>src</directory>
+	  
+	  <!-- Files to read -->
+	  
+	  <!-- Ignore rules -->
+	  
+  </files>
+</phpdoc>
